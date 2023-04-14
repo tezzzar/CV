@@ -21,3 +21,12 @@ $(document).ready(function () {
     cssEase: "linear",
   });
 });
+
+let toggle = document.querySelector(".toggle");
+let about = document.querySelector(".about");
+toggle.addEventListener("click", function () {
+  about.classList.toggle("show");
+});
+
+console.log(toggle);
+console.log(about);
