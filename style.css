@@ -93,10 +93,9 @@ footer a {
 }
 
 .toggle {
-  text-align: center;
   display: inline-block;
   position: relative;
-  left: calc(50% - 40px);
+  left: 20px;
 }
 .toggle :hover {
   cursor: pointer;

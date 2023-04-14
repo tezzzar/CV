@@ -90,10 +90,9 @@ footer {
   }
 }
 .toggle {
-  text-align: center;
   display: inline-block;
   position: relative;
-  left: calc(50% - 40px);
+  left: 20px;
   :hover {
     cursor: pointer;
     color: #0e1424;
