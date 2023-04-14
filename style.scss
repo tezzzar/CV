@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1400px;
+  margin: 30px auto;
+}
+.slider-top {
+  margin: 0 auto;
+  text-align: center;
+  li {
+    text-transform: uppercase;
+    font-size: 100px;
+  }
+}
+.col-3 {
+  width: 75%;
+}
+.col-1 {
+  width: 25%;
+}
+.flex {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+.col-1 {
+  background: url(img/photo.jpg) no-repeat;
+  background-size: contain;
+}
+.article-img {
+  img {
+    width: 650px;
+    height: auto;
+  }
+}
