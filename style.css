@@ -71,6 +71,7 @@
 footer .flex {
   justify-content: space-between;
   padding: 0 20px;
+  align-items: baseline;
 }
 footer a {
   text-decoration: none;
