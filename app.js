@@ -24,8 +24,10 @@ $(document).ready(function () {
 
 let toggle = document.querySelector(".toggle");
 let about = document.querySelector(".about");
+let arrow = document.querySelector(".arrow");
 toggle.addEventListener("click", function () {
   about.classList.toggle("show");
+  arrow.classList.toggle("arrow-down");
 });
 
 console.log(toggle);

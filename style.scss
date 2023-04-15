@@ -74,9 +74,6 @@ footer {
     text-decoration: none;
   }
 }
-.show {
-  display: block !important;
-}
 .about {
   display: none;
   -webkit-box-shadow: 5px 5px 15px 5px rgba(138, 143, 164, 0.9);
@@ -89,6 +86,9 @@ footer {
     width: 300px;
   }
 }
+.show {
+  display: block;
+}
 .toggle {
   display: inline-block;
   position: relative;
@@ -96,5 +96,19 @@ footer {
   :hover {
     cursor: pointer;
     color: #0e1424;
+  }
+  span {
+    position: relative;
+    display: block;
+    background: url(img/arrow_down.png) no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    bottom: 25px;
+    left: 85px;
+  }
+  .arrow-down {
+    background: url(img/arrow_up.png) no-repeat;
+    background-size: cover;
   }
 }
