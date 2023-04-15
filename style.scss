@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
   box-sizing: border-box;
   background-color: #ececec;
   color: #2d3e50;
-  font-family: "Chivo Mono", monospace;
+  font-family: "Montserrat", sans-serif;
 }
 .container {
   max-width: 1400px;
@@ -43,7 +43,7 @@
 .block-shadow {
   -webkit-box-shadow: 5px 5px 15px 5px rgba(138, 143, 164, 0.9);
   box-shadow: 5px 5px 15px 5px rgba(138, 143, 164, 0.9);
-  height: 367px;
+  height: 370px;
 }
 .col-1 {
   background: url(img/photo.png) no-repeat;
@@ -103,10 +103,10 @@ footer {
     display: block;
     background: url(img/arrow_down.png) no-repeat;
     background-size: cover;
-    width: 25px;
-    height: 25px;
-    bottom: 25px;
-    left: 85px;
+    width: 30px;
+    height: 30px;
+    bottom: 28px;
+    left: 98px;
   }
   .arrow-down {
     background: url(img/arrow_up.png) no-repeat;
