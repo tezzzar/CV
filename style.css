@@ -56,14 +56,21 @@
   border: 1px solid #ececec;
 }
 
-.article-img img {
+.portfolio {
+  display: flex;
+  box-shadow: 5px 5px 15px 5px rgba(138, 143, 164, 0.9);
+  justify-content: space-around;
+  padding: 20px 0;
+  position: relative;
+}
+.portfolio img {
   width: 650px;
   height: auto;
 }
-.article-img :hover {
-  box-shadow: 5px 5px 15px 5px rgba(138, 143, 164, 0.9);
+.portfolio :hover {
+  box-shadow: inset -1px 3px 8px 5px #909090, 2px 5px 16px 0px #909090, 5px 5px 22px 5px rgba(189, 191, 201, 0);
 }
-.article-img a {
+.portfolio a {
   display: block;
   height: 300px;
 }
@@ -82,8 +89,6 @@ footer a {
   box-shadow: 5px 5px 15px 5px rgba(138, 143, 164, 0.9);
   padding: 20px;
   position: relative;
-  z-index: 10;
-  margin: 0 20px;
 }
 .about img {
   width: 300px;
@@ -91,6 +96,10 @@ footer a {
 
 .show {
   display: block;
+}
+
+.hide {
+  display: none;
 }
 
 .toggle {
@@ -115,4 +124,42 @@ footer a {
 .toggle .arrow-down {
   background: url(img/arrow_up.png) no-repeat;
   background-size: cover;
+}
+
+.tabs {
+  box-shadow: 5px 5px 15px 5px rgba(138, 143, 164, 0.9);
+  position: relative;
+  display: inline-block;
+  top: 5px;
+  left: 0;
+  border-radius: 15px 15px 0 0;
+}
+.tabs :hover {
+  cursor: pointer;
+  background-color: #ececec;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+#tab-1 {
+  border-radius: 15px 0 0 0;
+}
+
+#tab-3 {
+  border-radius: 0 15px 0 0;
+}
+
+[id*=tab-] {
+  position: relative;
+  z-index: 10;
+  padding: 15px 30px;
+  float: left;
+  border: 1px solid #ececec;
+  background-color: #bdbfc9;
+}
+
+.tab-bg {
+  background-color: #ececec;
 }/*# sourceMappingURL=style.css.map */
