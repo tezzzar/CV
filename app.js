@@ -31,25 +31,25 @@ let tab1 = document.getElementById("tab-1");
 let tab2 = document.getElementById("tab-2");
 let tab3 = document.getElementById("tab-3");
 tab1.addEventListener("click", function () {
-  tab1.classList.add("tab-bg", "font-bold");
-  tab2.classList.remove("tab-bg", "font-bold");
-  tab3.classList.remove("tab-bg", "font-bold");
+  tab1.classList.add("tab-bg", "font-bold", "color");
+  tab2.classList.remove("tab-bg", "font-bold", "color");
+  tab3.classList.remove("tab-bg", "font-bold", "color");
   slider.classList.remove("hide");
   about.classList.remove("show");
   portfolio.classList.add("hide");
 });
 tab2.addEventListener("click", function () {
-  tab1.classList.remove("tab-bg", "font-bold");
-  tab2.classList.add("tab-bg", "font-bold");
-  tab3.classList.remove("tab-bg", "font-bold");
+  tab1.classList.remove("tab-bg", "font-bold", "color");
+  tab2.classList.add("tab-bg", "font-bold", "color");
+  tab3.classList.remove("tab-bg", "font-bold", "color");
   slider.classList.add("hide");
   about.classList.add("show");
   portfolio.classList.add("hide");
 });
 tab3.addEventListener("click", function () {
-  tab1.classList.remove("tab-bg", "font-bold");
-  tab2.classList.remove("tab-bg", "font-bold");
-  tab3.classList.add("tab-bg", "font-bold");
+  tab1.classList.remove("tab-bg", "font-bold", "color");
+  tab2.classList.remove("tab-bg", "font-bold", "color");
+  tab3.classList.add("tab-bg", "font-bold", "color");
   slider.classList.add("hide");
   about.classList.remove("show");
   portfolio.classList.remove("hide");

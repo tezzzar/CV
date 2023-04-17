@@ -147,8 +147,10 @@ header {
   :hover {
     cursor: pointer;
     background-color: #ececec;
+    color: #2d3e50;
   }
 }
+
 .font-bold {
   font-weight: 600;
 }
@@ -160,6 +162,7 @@ header {
 }
 
 [id*="tab-"] {
+  color: #fff;
   position: relative;
   z-index: 10;
   padding: 15px 30px;
@@ -170,4 +173,8 @@ header {
 
 .tab-bg {
   background-color: #ececec;
+}
+
+.color {
+  color: #2d3e50;
 }

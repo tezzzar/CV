@@ -150,6 +150,7 @@ header h4 {
 .tabs :hover {
   cursor: pointer;
   background-color: #ececec;
+  color: #2d3e50;
 }
 
 .font-bold {
@@ -165,6 +166,7 @@ header h4 {
 }
 
 [id*=tab-] {
+  color: #fff;
   position: relative;
   z-index: 10;
   padding: 15px 30px;
@@ -175,4 +177,8 @@ header h4 {
 
 .tab-bg {
   background-color: #ececec;
+}
+
+.color {
+  color: #2d3e50;
 }/*# sourceMappingURL=style.css.map */
