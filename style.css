@@ -94,7 +94,7 @@ header a {
   position: relative;
 }
 .about img {
-  width: 350px;
+  height: 250px;
   margin-right: 30px;
 }
 .about img:hover {
