@@ -86,6 +86,10 @@ header {
   a {
     text-decoration: none;
   }
+  p,
+  h4 {
+    font-weight: 500;
+  }
 }
 .about {
   display: none;
@@ -143,7 +147,6 @@ header {
   :hover {
     cursor: pointer;
     background-color: #ececec;
-    // background-color: #d9dbe6;
   }
 }
 .font-bold {

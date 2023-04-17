@@ -86,6 +86,10 @@ header .flex {
 header a {
   text-decoration: none;
 }
+header p,
+header h4 {
+  font-weight: 500;
+}
 
 .about {
   display: none;
