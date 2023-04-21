@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
-
 * {
   box-sizing: border-box;
   background-color: #ececec;
@@ -72,7 +71,6 @@
     height: 300px;
   }
 }
-
 header {
   .container {
     margin: 0 auto;
@@ -135,7 +133,6 @@ header {
     background-size: cover;
   }
 }
-
 .tabs {
   box-shadow: 5px 5px 15px 5px rgba(138, 143, 164, 0.9);
   position: relative;
@@ -149,7 +146,6 @@ header {
     color: #2d3e50;
   }
 }
-
 .font-bold {
   font-weight: 600;
 }
@@ -159,7 +155,6 @@ header {
 #tab-3 {
   border-radius: 0 15px 0 0;
 }
-
 [id*='tab-'] {
   color: #fff;
   position: relative;
@@ -169,11 +164,9 @@ header {
   border: 1px solid #ececec;
   background-color: #bdbfc9;
 }
-
 .tab-bg {
   background-color: #ececec;
 }
-
 .color {
   color: #2d3e50;
 }
